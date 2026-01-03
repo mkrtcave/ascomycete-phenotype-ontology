@@ -1,0 +1,14 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http://purl.obolibrary.org/obo/apo/releases/2025-11-10/apo.owl> a prov:Entity;
+	 dc:title "Ascomycete Phenotype Ontology (APO)";
+	 prov:wasAttributedTo <https://www.yeastgenome.org/>;
+	 dc:creator <https://www.yeastgenome.org/>;
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+.
+:agent0 a prov:Agent; foaf:name "Maria Costanzo".
+:agent1 a prov:Agent; foaf:name "Suzi Aleksander".
